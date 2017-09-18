@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 1px;
+  color: white;
+}
+
+.completed {
+  background-color: #468847;
+}
+
+.notCompleted {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.current {
+  background-color: #b94a48;
+  font-size: 60px!important;
+}
+
+.token {
+  font-size: 50px;
+  margin: 5px;
+}
+
+.message {
+  font-size: 70px;  
+  margin-bottom: 50px;
+}
+
+.active {
+  color: green;
+}
+
+.inactive {
+  color: red;
+}
+
+.big-font {
+  font-size: 80px;
+}
+
+.btn {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.newNumber {
+  font-size: 600px;
+  height: 800px;
+}
+
+.space_front {
+  margin-left: 20px;
+}
+
+.space {
+  margin-top: 200px;
+  margin-bottom: 400px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
